@@ -52,7 +52,7 @@ public class CourseRegistrationDatabaseTest {
             // register for one course
 
             boolean result = registrationDao.create(studentid, DAOUtility.TERMID_FA24, 10520);
-
+            
             // compare number of updated records
 
             assertTrue(result);
